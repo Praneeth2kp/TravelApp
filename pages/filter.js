@@ -136,7 +136,7 @@ const Filter = () => {
               }}
             >
               {prices.map((item, index) => (
-                <View style={{ justifyContent: "space-around" }}>
+                <View key={index} style={{ justifyContent: "space-around" }}>
                   <Text
                     style={{
                       marginRight: 5,
